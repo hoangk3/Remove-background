@@ -3,14 +3,11 @@ import io
 from rembg import remove
 from PIL import Image
 
-# Đường dẫn đến thư mục chứa ảnh đầu vào và đầu ra
-input_folder = r'C:\Users\Puppy_z4nx\Downloads\gg'
-output_folder = r'C:\Users\Puppy_z4nx\Downloads\gg2'
+input_folder = r'ur drirect'
+output_folder = r'ur drirect'
 
-# Đảm bảo thư mục đầu ra tồn tại
 os.makedirs(output_folder, exist_ok=True)
 
-# Lặp qua tất cả các file trong thư mục đầu vào
 for img_file in os.listdir(input_folder):
     input_path = os.path.join(input_folder, img_file)
     
