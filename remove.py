@@ -32,4 +32,4 @@ for img_file in os.listdir(input_folder):
         
         print(f"Đã xử lý: {img_file} -> {output_path}")
     except Exception as e:
-        print(f"Lỗi khi xử lý file {img_file}: {e}")
+        print(f"Lỗi khi xử lý {img_file}: {e}")
